@@ -1,14 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { Inter } from '@next/font/google';
-import styles from '@/styles/Home.module.css';
+import 'sanitize.css';
+
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import ProgressBar from '@/components/ui/ProgressBar';
 import Text from '@/components/ui/Text';
 import TextInput from '@/components/ui/TextInput';
-
-const inter = Inter({ subsets: ['latin'], variable: '--inter-font' });
 
 export default function Home() {
   return (
@@ -26,118 +24,53 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+
+        <meta name="theme-color" content="#000000" />
+        <meta name="author" content="Tyler Wolff" />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.japanese-quiz.com" />
+        <meta
+          property="og:title"
+          content="Japanese Quiz - Daily Kana Practice"
+        />
+        <meta
+          property="og:description"
+          content="Improve your Japanese hiragana & katakana skills easily with daily language quizes."
+        />
+        <meta property="og:image" content="" />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.japanese-quiz.com" />
+        <meta
+          property="twitter:title"
+          content="Japanese Quiz - Daily Kana Practice"
+        />
+        <meta
+          property="twitter:description"
+          content="Improve your Japanese hiragana & katakana skills easily with daily language quizes."
+        />
+        <meta property="twitter:image" content="" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
-          </p>
-          <Button type="button" onClick={() => alert('yo')}>
-            This is a test
-          </Button>
-          <Badge>this is a test</Badge>
-          <ProgressBar progress={50} />
-          <Text>Yooooo....</Text>
-          <TextInput type="email" placeholder="test@example.com" />
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
+      <main>
+        <Button type="button" onClick={() => alert('yo')}>
+          This is a test
+        </Button>
+        <Badge>this is a test</Badge>
+        <ProgressBar progress={50} />
+        <Text>Yooooo....</Text>
+        <TextInput type="email" placeholder="test@example.com" />
       </main>
+      <div style={{ display: 'none' }}>
+        <p>
+          Improve your Japanese hiragana & katakana skills easily with daily
+          language quizes. Quickly practice useful Japanese vocabulary,
+          adjectives, verbs, and kanji with these quizes.
+        </p>
+      </div>
     </>
   );
 }
