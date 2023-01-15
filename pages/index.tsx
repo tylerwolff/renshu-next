@@ -2,11 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import 'sanitize.css';
 
-import Button from '@/components/ui/Button';
-import Badge from '@/components/ui/Badge';
-import ProgressBar from '@/components/ui/ProgressBar';
-import Text from '@/components/ui/Text';
-import TextInput from '@/components/ui/TextInput';
+import Nav from '@/components/Nav';
 
 export default function Home() {
   return (
@@ -56,13 +52,7 @@ export default function Home() {
         <meta property="twitter:image" content="" />
       </Head>
       <main>
-        <Button type="button" onClick={() => alert('yo')}>
-          This is a test
-        </Button>
-        <Badge>this is a test</Badge>
-        <ProgressBar progress={50} />
-        <Text>Yooooo....</Text>
-        <TextInput type="email" placeholder="test@example.com" />
+        <Nav />
       </main>
       <div style={{ display: 'none' }}>
         <p>

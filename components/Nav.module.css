@@ -1,0 +1,47 @@
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1em 2em;
+  background: #eee;
+  border-right: 1px solid #ccc;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+  transform: translate(-100%, 0);
+  transition: transform 0.15s ease-out;
+  z-index: 1;
+}
+
+.panelShow {
+  transform: translate(0, 0);
+}
+
+.toggle {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background: none;
+  border: 0;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.links {
+  padding: 0;
+  list-style-type: none;
+}
+
+.navLink {
+  display: block;
+  padding-bottom: 1em;
+  color: #000;
+}
+
+.feedbackLink {
+  position: absolute;
+  bottom: 1em;
+  left: 2em;
+  color: #000;
+  font-size: 0.875em;
+  text-decoration: none;
+}
