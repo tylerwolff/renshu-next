@@ -2,6 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
+import Button from '@/components/ui/Button';
+import Badge from '@/components/ui/Badge';
+import ProgressBar from '@/components/ui/ProgressBar';
+import Text from '@/components/ui/Text';
+import TextInput from '@/components/ui/TextInput';
 
 const inter = Inter({ subsets: ['latin'], variable: '--inter-font' });
 
@@ -28,6 +33,13 @@ export default function Home() {
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
           </p>
+          <Button type="button" onClick={() => alert('yo')}>
+            This is a test
+          </Button>
+          <Badge>this is a test</Badge>
+          <ProgressBar progress={50} />
+          <Text>Yooooo....</Text>
+          <TextInput type="email" placeholder="test@example.com" />
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
