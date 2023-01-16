@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import OutsideClickHandler from 'react-outside-click-handler';
 import Link from 'next/link';
+import MenuIcon from '../Icons/Menu';
 import styles from './Nav.module.css';
 
 const PAGES = [
@@ -37,7 +38,7 @@ const Nav = () => {
     <OutsideClickHandler onOutsideClick={() => setShow(false)}>
       <nav>
         <button className={styles.toggle} onClick={() => setShow(true)}>
-          <img src="/assets/round-menu-24px.svg" alt="" /> Quizes
+          <MenuIcon /> Quizes
         </button>
         <div className={`${styles.panel} ${show && styles.panelShow}`}>
           <h2>Japanese Quizes</h2>

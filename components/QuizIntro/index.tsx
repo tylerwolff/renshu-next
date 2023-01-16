@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../ui/Button';
 import Text from '../ui/Text';
+import ChevronRight from '../Icons/ChevronRight';
 import styles from './QuizIntro.module.css';
 
 type QuizIntroProps = {
@@ -20,7 +21,7 @@ const QuizIntro = (props: QuizIntroProps) => {
         <Text margin="0 0 2rem">{instructions}</Text>
         {props.children}
         <Button onClick={onStart}>
-          Start quiz <img src="/assets/round-chevron_right-24px" alt="" />
+          Start quiz <ChevronRight />
         </Button>
       </div>
     </div>

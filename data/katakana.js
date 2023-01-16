@@ -1,0 +1,87 @@
+import ROWS from './rows';
+
+const katakana = [
+  { character: 'ア', sound: 'a', romaji: 'a', row: ROWS.A },
+  { character: 'イ', sound: 'i', romaji: 'i', row: ROWS.A },
+  { character: 'ウ', sound: 'u', romaji: 'u', row: ROWS.A },
+  { character: 'エ', sound: 'e', romaji: 'e', row: ROWS.A },
+  { character: 'オ', sound: 'o', romaji: 'o', row: ROWS.A },
+
+  { character: 'カ', sound: 'ka', romaji: 'ka', row: ROWS.KA },
+  { character: 'キ', sound: 'ki', romaji: 'ki', row: ROWS.KA },
+  { character: 'ク', sound: 'ku', romaji: 'ku', row: ROWS.KA },
+  { character: 'ケ', sound: 'ke', romaji: 'ke', row: ROWS.KA },
+  { character: 'コ', sound: 'ko', romaji: 'ko', row: ROWS.KA },
+
+  { character: 'サ', sound: 'sa', romaji: 'sa', row: ROWS.SA },
+  { character: 'シ', sound: 'shi', romaji: 'shi', row: ROWS.SA },
+  { character: 'ス', sound: 'su', romaji: 'su', row: ROWS.SA },
+  { character: 'セ', sound: 'se', romaji: 'se', row: ROWS.SA },
+  { character: 'ソ', sound: 'so', romaji: 'so', row: ROWS.SA },
+
+  { character: 'タ', sound: 'ta', romaji: 'ta', row: ROWS.TA },
+  { character: 'チ', sound: 'chi', romaji: 'chi', row: ROWS.TA },
+  { character: 'ツ', sound: 'tsu', romaji: 'tsu', row: ROWS.TA },
+  { character: 'テ', sound: 'te', romaji: 'te', row: ROWS.TA },
+  { character: 'ト', sound: 'to', romaji: 'to', row: ROWS.TA },
+
+  { character: 'ナ', sound: 'na', romaji: 'na', row: ROWS.NA },
+  { character: 'ニ', sound: 'ni', romaji: 'ni', row: ROWS.NA },
+  { character: 'ヌ', sound: 'nu', romaji: 'nu', row: ROWS.NA },
+  { character: 'ネ', sound: 'ne', romaji: 'ne', row: ROWS.NA },
+  { character: 'ノ', sound: 'no', romaji: 'no', row: ROWS.NA },
+
+  { character: 'ハ', sound: 'ha', romaji: 'ha', row: ROWS.HA },
+  { character: 'ヒ', sound: 'hi', romaji: 'hi', row: ROWS.HA },
+  { character: 'フ', sound: 'fu', romaji: 'fu', row: ROWS.HA },
+  { character: 'ヘ', sound: 'he', romaji: 'he', row: ROWS.HA },
+  { character: 'ホ', sound: 'ho', romaji: 'ho', row: ROWS.HA },
+
+  { character: 'マ', sound: 'ma', romaji: 'ma', row: ROWS.MA },
+  { character: 'ミ', sound: 'mi', romaji: 'mi', row: ROWS.MA },
+  { character: 'ム', sound: 'mu', romaji: 'mu', row: ROWS.MA },
+  { character: 'メ', sound: 'me', romaji: 'me', row: ROWS.MA },
+  { character: 'モ', sound: 'mo', romaji: 'mo', row: ROWS.MA },
+
+  { character: 'ラ', sound: 'ra', romaji: 'ra', row: ROWS.RA },
+  { character: 'リ', sound: 'ri', romaji: 'ri', row: ROWS.RA },
+  { character: 'ル', sound: 'ru', romaji: 'ru', row: ROWS.RA },
+  { character: 'レ', sound: 're', romaji: 're', row: ROWS.RA },
+  { character: 'ロ', sound: 'ro', romaji: 'ro', row: ROWS.RA },
+
+  { character: 'ヤ', sound: 'ya', romaji: 'ya', row: ROWS.YA },
+  { character: 'ユ', sound: 'yu', romaji: 'yu', row: ROWS.YA },
+  { character: 'ヨ', sound: 'yo', romaji: 'yo', row: ROWS.YA },
+
+  { character: 'ワ', sound: 'wa', romaji: 'wa', row: ROWS.WA },
+  { character: 'ヲ', sound: 'wo', romaji: 'wo', row: ROWS.WA },
+  { character: 'ン', sound: 'n', romaji: 'n', row: ROWS.WA },
+
+  { character: 'ガ', sound: 'ga', romaji: 'ga', row: ROWS.ALT },
+  { character: 'ギ', sound: 'gi', romaji: 'gi', row: ROWS.ALT },
+  { character: 'グ', sound: 'gu', romaji: 'gu', row: ROWS.ALT },
+  { character: 'ゲ', sound: 'ge', romaji: 'ge', row: ROWS.ALT },
+  { character: 'ゴ', sound: 'go', romaji: 'go', row: ROWS.ALT },
+  { character: 'ザ', sound: 'za', romaji: 'za', row: ROWS.ALT },
+  { character: 'ジ', sound: 'ji', romaji: 'ji', row: ROWS.ALT },
+  { character: 'ズ', sound: 'zu', romaji: 'zu', row: ROWS.ALT },
+  { character: 'ゼ', sound: 'ze', romaji: 'ze', row: ROWS.ALT },
+  { character: 'ゾ', sound: 'zo', romaji: 'zo', row: ROWS.ALT },
+  { character: 'ダ', sound: 'da', romaji: 'da', row: ROWS.ALT },
+  { character: 'ヂ', sound: 'ji', romaji: 'ji', row: ROWS.ALT },
+  { character: 'ヅ', sound: 'zu', romaji: 'zu', row: ROWS.ALT },
+  { character: 'デ', sound: 'de', romaji: 'de', row: ROWS.ALT },
+  { character: 'ド', sound: 'do', romaji: 'do', row: ROWS.ALT },
+  { character: 'バ', sound: 'ba', romaji: 'ba', row: ROWS.ALT },
+  { character: 'ビ', sound: 'bi', romaji: 'bi', row: ROWS.ALT },
+  { character: 'ブ', sound: 'bu', romaji: 'bu', row: ROWS.ALT },
+  { character: 'ベ', sound: 'be', romaji: 'be', row: ROWS.ALT },
+  { character: 'ボ', sound: 'bo', romaji: 'bo', row: ROWS.ALT },
+  { character: 'パ', sound: 'pa', romaji: 'pa', row: ROWS.ALT },
+  { character: 'ピ', sound: 'pi', romaji: 'pi', row: ROWS.ALT },
+  { character: 'プ', sound: 'pu', romaji: 'pu', row: ROWS.ALT },
+  { character: 'ペ', sound: 'pe', romaji: 'pe', row: ROWS.ALT },
+  { character: 'ポ', sound: 'po', romaji: 'po', row: ROWS.ALT },
+];
+
+export default katakana;

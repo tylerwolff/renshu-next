@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ChevronRight from '../Icons/ChevronRight';
 import Button from '../ui/Button';
 import ProgressBar from '../ui/ProgressBar';
 import TextInput from '../ui/TextInput';
@@ -109,8 +110,7 @@ class VocabularyQuiz extends Component<
               <>
                 <h1 className={styles.prompt}>すごいよ!</h1>
                 <Button onClick={() => window.location.reload()}>
-                  Start again{' '}
-                  <img src="/assets/round-chevron_right-24px" alt="" />
+                  Start again <ChevronRight />
                 </Button>
               </>
             )}

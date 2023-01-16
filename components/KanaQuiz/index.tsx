@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button from '../ui/Button';
 import ProgressBar from '../ui/ProgressBar';
 import TextInput from '../ui/TextInput';
+import ChevronRight from '../Icons/ChevronRight';
 import styles from './KanaQuiz.module.css';
 
 interface Row {
@@ -19,7 +20,7 @@ interface Character {
 
 type QuizProps = {
   questions: Character[];
-  placeholder: string;
+  placeholder?: string;
 };
 
 type QuizState = {
@@ -103,8 +104,7 @@ class Quiz extends Component<QuizProps, QuizState> {
               <>
                 <h1 className={styles.prompt}>すごいよ!</h1>
                 <Button onClick={() => window.location.reload()}>
-                  Start again{' '}
-                  <img src="/assets/round-chevron_right-24px.svg" alt="" />
+                  Start again <ChevronRight />
                 </Button>
               </>
             )}
