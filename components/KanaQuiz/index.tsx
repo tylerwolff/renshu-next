@@ -15,7 +15,7 @@ interface Character {
   character: string;
   sound: string;
   romaji: string;
-  row?: Row[];
+  row?: Row;
 }
 
 type QuizProps = {

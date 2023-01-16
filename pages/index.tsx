@@ -20,7 +20,7 @@ interface Character {
   character: string;
   sound: string;
   romaji: string;
-  row?: Row[];
+  row?: Row;
 }
 
 interface SettingObject {
@@ -28,11 +28,6 @@ interface SettingObject {
   katakana?: boolean;
   yoon?: boolean;
 }
-
-// const OptionCheck = styled.input`
-//   margin-right: 1em;
-//   margin-bottom: 1em;
-// `;
 
 const getInitialSettings = (): SettingObject => {
   return {
@@ -46,7 +41,7 @@ const Kana = () => {
   const [startQuiz, setStartQuiz] = useState(false);
   const [settings, setSettings] = useState(getInitialSettings());
 
-  let chars: Character[] = [];
+  let chars: Array<Character> = [];
 
   if (settings.hiragana) {
     chars = chars.concat(hiragana);
