@@ -1,9 +1,9 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Nav from '@/components/Nav';
 import VocabularyQuiz from '@/components/VocabularyQuiz';
 import QuizIntro from '@/components/QuizIntro';
 import adjectives from '@/data/adjectives.json';
-import { useState } from 'react';
 
 export default function Adjectives() {
   const [startQuiz, setStartQuiz] = useState(false);

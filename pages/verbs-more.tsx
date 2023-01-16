@@ -5,14 +5,14 @@ import QuizIntro from '@/components/QuizIntro';
 import VocabularyQuiz from '@/components/VocabularyQuiz';
 import verbs from '@/data/verbs.json';
 
-const Verbs = () => {
+const VerbsMore = (props: any) => {
   const [startQuiz, setStartQuiz] = useState(false);
-  const words = verbs.basic.sort(() => 0.5 - Math.random());
+  const words = verbs.basic_more.sort(() => 0.5 - Math.random());
 
   return (
     <>
       <Head>
-        <title>Verbs - Japanese Quiz</title>
+        <title>More Verbs - Japanese Quiz</title>
       </Head>
       <main>
         <Nav />
@@ -23,7 +23,7 @@ const Verbs = () => {
           />
         ) : (
           <QuizIntro
-            name="Verbs - Basics"
+            name="Verbs - More"
             instructions="To complete this quiz, type in the English translation of each verb."
             onStart={() => setStartQuiz(true)}
           />
@@ -33,4 +33,4 @@ const Verbs = () => {
   );
 };
 
-export default Verbs;
+export default VerbsMore;
