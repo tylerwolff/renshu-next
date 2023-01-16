@@ -1,0 +1,166 @@
+{
+  "vocabulary": [
+    {
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "english": "big",
+      "answers": ["big", "large"]
+    },
+    {
+      "hiragana": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small",
+      "answers": ["small", "little"]
+    },
+    {
+      "hiragana": "いい",
+      "romaji": "ii",
+      "english": "good",
+      "answers": ["good"]
+    },
+    {
+      "hiragana": "わるい",
+      "romaji": "warui",
+      "english": "bad",
+      "answers": ["bad"]
+    },
+    {
+      "hiragana": "すごい",
+      "romaji": "sugoi",
+      "english": "great",
+      "answers": ["great", "amazing", "good"]
+    },
+    {
+      "hiragana": "あたらしい",
+      "romaji": "atarashii",
+      "english": "new",
+      "answers": ["new"]
+    },
+    {
+      "hiragana": "ふるい",
+      "romaji": "furui",
+      "english": "old",
+      "answers": ["old"]
+    },
+    {
+      "hiragana": "さむい",
+      "romaji": "samui",
+      "english": "cold",
+      "answers": ["cold"]
+    },
+    {
+      "hiragana": "あつい",
+      "romaji": "atsui",
+      "english": "hot",
+      "answers": ["hot"]
+    },
+    {
+      "hiragana": "かっこいい",
+      "romaji": "kakkoii",
+      "english": "cool",
+      "answers": ["cool"]
+    },
+    {
+      "hiragana": "たかい",
+      "romaji": "takai",
+      "english": "expensive",
+      "answers": ["expensive"]
+    },
+    {
+      "hiragana": "やすい",
+      "romaji": "yasui",
+      "english": "cheap",
+      "answers": ["cheap"]
+    },
+    {
+      "hiragana": "きたない",
+      "romaji": "kitanai",
+      "english": "dirty",
+      "answers": ["dirty"]
+    },
+    {
+      "hiragana": "たのしい",
+      "romaji": "tanoshii",
+      "english": "fun",
+      "answers": ["fun"]
+    },
+    {
+      "hiragana": "つまらない",
+      "romaji": "tsumaranai",
+      "english": "boring",
+      "answers": ["boring"]
+    },
+    {
+      "hiragana": "やさしい",
+      "romaji": "yasashii",
+      "english": "easy",
+      "answers": ["easy"]
+    },
+    {
+      "hiragana": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "answers": ["difficult"]
+    },
+    {
+      "hiragana": "おもしろい",
+      "romaji": "omoshiroi",
+      "english": "interesting",
+      "answers": ["interesting"]
+    },
+    {
+      "hiragana": "いそがしい",
+      "romaji": "isogashii",
+      "english": "busy",
+      "answers": ["busy"]
+    },
+    {
+      "hiragana": "こわい",
+      "romaji": "kowai",
+      "english": "scary",
+      "answers": ["scary"]
+    },
+    {
+      "hiragana": "きれい(な)",
+      "romaji": "kirei",
+      "english": "pretty",
+      "answers": ["pretty"]
+    },
+    {
+      "hiragana": "しずか(な)",
+      "romaji": "shizuka",
+      "english": "quiet",
+      "answers": ["quiet"]
+    },
+    {
+      "hiragana": "にぎやか(な)",
+      "romaji": "nigiyaka",
+      "english": "lively",
+      "answers": ["lively"]
+    },
+    {
+      "hiragana": "げんき(な)",
+      "romaji": "genki",
+      "english": "happy",
+      "answers": ["happy"]
+    },
+    {
+      "hiragana": "すき(な)",
+      "romaji": "suki",
+      "english": "like",
+      "answers": ["like"]
+    },
+    {
+      "hiragana": "きらい(な)",
+      "romaji": "kirai",
+      "english": "dislike",
+      "answers": ["dislike"]
+    },
+    {
+      "hiragana": "ひま(な)",
+      "romaji": "hima",
+      "english": "free",
+      "answers": ["free"]
+    }
+  ]
+}

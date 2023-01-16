@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import 'sanitize.css';
-
 import Nav from '@/components/Nav';
 
 export default function Home() {
