@@ -1,0 +1,204 @@
+{
+  "basic": [
+    {
+      "hiragana": "たべる",
+      "romaji": "taberu",
+      "english": "to eat",
+      "answers": ["eat"]
+    },
+    {
+      "hiragana": "のむ",
+      "romaji": "nomu",
+      "english": "to drink",
+      "answers": ["drink"]
+    },
+    {
+      "hiragana": "わかる",
+      "romaji": "wakaru",
+      "english": "to understand",
+      "answers": ["understand"]
+    },
+    {
+      "hiragana": "みる",
+      "romaji": "miru",
+      "english": "to see",
+      "answers": ["see", "watch", "look"]
+    },
+    {
+      "hiragana": "ねる",
+      "romaji": "neru",
+      "english": "to sleep",
+      "answers": ["sleep"]
+    },
+    {
+      "hiragana": "おきる",
+      "romaji": "okiru",
+      "english": "to wake up",
+      "answers": ["wake", "occur"]
+    },
+    {
+      "hiragana": "きる",
+      "romaji": "kiru",
+      "english": "to wear",
+      "answers": ["wear"]
+    },
+    {
+      "hiragana": "はなす",
+      "romaji": "hanasu",
+      "english": "to speak",
+      "answers": ["speak", "say"]
+    },
+    {
+      "hiragana": "きく",
+      "romaji": "kiku",
+      "english": "to ask or listen",
+      "answers": ["listen", "ask"]
+    },
+    {
+      "hiragana": "およぐ",
+      "romaji": "oyogu",
+      "english": "to swim",
+      "answers": ["swim"]
+    },
+    {
+      "hiragana": "まつ",
+      "romaji": "matsu",
+      "english": "to wait",
+      "answers": ["wait"]
+    },
+    {
+      "hiragana": "かう",
+      "romaji": "kau",
+      "english": "to buy",
+      "answers": ["buy"]
+    },
+    {
+      "hiragana": "くる",
+      "romaji": "kuru",
+      "english": "to come",
+      "answers": ["come"]
+    },
+    {
+      "hiragana": "かえる",
+      "romaji": "kaeru",
+      "english": "to return home",
+      "answers": ["go home", "return home"]
+    }
+  ],
+  "basic_more": [
+    {
+      "hiragana": "あける",
+      "romaji": "akeru",
+      "english": "to open",
+      "answers": ["open"]
+    },
+    {
+      "hiragana": "おしえる",
+      "romaji": "oshieru",
+      "english": "to teach",
+      "answers": ["teach"]
+    },
+    {
+      "hiragana": "おりる",
+      "romaji": "oriru",
+      "english": "to get off",
+      "answers": ["get off"]
+    },
+    {
+      "hiragana": "かりる",
+      "romaji": "kariru",
+      "english": "to borrow",
+      "answers": ["borrow"]
+    },
+    {
+      "hiragana": "しめる",
+      "romaji": "shimeru",
+      "english": "to close",
+      "answers": ["close"]
+    },
+    {
+      "hiragana": "つける",
+      "romaji": "tsukeru",
+      "english": "to put on",
+      "answers": ["put on", "turn on"]
+    },
+    {
+      "hiragana": "わすれる",
+      "romaji": "wasureru",
+      "english": "to forget",
+      "answers": ["forget"]
+    },
+    {
+      "hiragana": "つかう",
+      "romaji": "tsukau",
+      "english": "to use",
+      "answers": ["use"]
+    },
+    {
+      "hiragana": "てつだう",
+      "romaji": "tetsudau",
+      "english": "to help",
+      "answers": ["help"]
+    },
+    {
+      "hiragana": "いそぐ",
+      "romaji": "isogu",
+      "english": "to hurry",
+      "answers": ["hurry"]
+    },
+    {
+      "hiragana": "かえす",
+      "romaji": "kaesu",
+      "english": "to return",
+      "answers": ["return"]
+    },
+    {
+      "hiragana": "けす",
+      "romaji": "kesu",
+      "english": "to turn off",
+      "answers": ["turn off"]
+    },
+    {
+      "hiragana": "たつ",
+      "romaji": "tatsu",
+      "english": "to stand up",
+      "answers": ["stand up", "rise"]
+    },
+    {
+      "hiragana": "はこぶ",
+      "romaji": "hakobu",
+      "english": "to carry",
+      "answers": ["carry"]
+    },
+    {
+      "hiragana": "しぬ",
+      "romaji": "shinu",
+      "english": "to die",
+      "answers": ["die"]
+    },
+    {
+      "hiragana": "あそぶ",
+      "romaji": "asobu",
+      "english": "to play",
+      "answers": ["play"]
+    },
+    {
+      "hiragana": "やすむ",
+      "romaji": "yasumu",
+      "english": "to be absent",
+      "answers": ["absent", "rest"]
+    },
+    {
+      "hiragana": "すわる",
+      "romaji": "suwaru",
+      "english": "to sit",
+      "answers": ["sit"]
+    },
+    {
+      "hiragana": "はいる",
+      "romaji": "hairu",
+      "english": "to enter",
+      "answers": ["enter"]
+    }
+  ]
+}
